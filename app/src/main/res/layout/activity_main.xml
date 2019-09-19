@@ -16,21 +16,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/editAltura" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/editAltura"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="Altura"
         android:inputType="numberDecimal"
-        app:layout_constraintStart_toStartOf="@+id/editText"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintStart_toStartOf="@+id/editPeso"
+        app:layout_constraintTop_toBottomOf="@+id/editPeso" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editPeso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
